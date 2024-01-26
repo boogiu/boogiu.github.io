@@ -1,0 +1,25 @@
+.headding{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    color: aliceblue;
+}
+
+.header_logo{
+    justify-self: flex-start;
+    width : 80px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+.header_Title{
+    font-size: 3rem;
+    color: aquamarine;
+    justify-self: center;
+}
