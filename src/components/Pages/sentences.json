@@ -1,0 +1,17 @@
+[
+    {
+      "text": "첫 번째 문장입니다.",
+      "styles": [
+        {"index": 0, "color": "red"},
+        {"index": 2, "fontSize": "20px"}
+      ]
+    },
+    {
+        "text": "두 번째 문장입니다.",
+        "styles": [
+          {"index": 3, "color": "red"},
+          {"index": 2, "fontSize": "20px"}
+        ]
+      }
+
+  ]

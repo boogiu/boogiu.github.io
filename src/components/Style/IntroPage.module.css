@@ -1,0 +1,159 @@
+
+  .Title{
+    line-height: 170%;
+    color: rgb(6, 190, 104);
+    font-size: 15vmin;
+    font-weight: 200;
+    letter-spacing: -0.05em;
+    font-family: '워헤븐3','Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 1px 0.5px 0.5px rgb(136, 156, 139);
+    text-align: center;
+    font-style: italic;
+    text-shadow:  0 0 7px #fff, 
+    0 0 10px #fff, 
+    0 0 21px #0fa, 
+    0 0 42px #0fa,
+    0 0 82px #0fa, 
+    0 0 92px #0fa;
+}
+
+
+.StrongSemi{
+  line-height: 170%;
+  color:rgb(5, 156, 86);
+  font-size: 6vmin;
+  font-weight: 80;
+  letter-spacing: -0.05em;
+  font-family: '워헤븐1','Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 1px 0.5px 0.5px rgb(136, 156, 139);
+  text-align: center;
+}
+
+.StrongNormal{
+  line-height: 170%;
+  color: rgb(5, 156, 86);
+  font-size: 8vmin;
+  font-weight: 600;
+  letter-spacing: -0.05em;
+  font-family: '워헤븐2','Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 1px 0.5px 0.5px rgb(136, 156, 139);
+  text-align: center;
+}
+.StrongBold{
+  line-height: 170%;
+  color: rgb(6, 190, 104);
+  font-size: 10vmin;
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  font-family: '워헤븐3','Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 1px 0.5px 0.5px rgb(136, 156, 139);
+  text-align: center;
+  font-style: italic;
+}
+
+.Weak1{
+  line-height: 85%;
+  color: rgba(255, 238, 0, 0.788);
+  font-size: 8vmin;
+  letter-spacing: -0.05em;
+  font-family: '빙자람','Times New Roman', Times, serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Weak2{
+  line-height: 85%;
+  color: rgba(255, 238, 0, 0.788);
+  font-size: 5vmin;
+  letter-spacing: -0.05em;
+  font-family: '빙자람','Times New Roman', Times, serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.Alert{
+  line-height: 235%;
+  color: red;
+  font-size: 9vmin;
+  font-weight: 200;
+  letter-spacing: 0em;
+  font-family: '워헤븐2','Times New Roman', Times, serif;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0.2px 0.2px 0.2px rgb(37, 37, 37);
+}
+
+.SemiAlert{
+  line-height: 235%;
+  color: red;
+  font-size: 6vmin;
+  font-weight: 200;
+  letter-spacing: 0em;
+  font-family: '워헤븐2','Times New Roman', Times, serif;
+  text-align: center;
+  text-shadow: 0.2px 0.2px 0.2px rgb(37, 37, 37);
+}
+.commonText {
+  line-height: 200%;
+  font-family: "워헤븐2", sans-serif;
+  font-size: 6vmin;
+  color: rgb(226, 223, 223);
+  padding: 7vmin;
+  text-shadow: 0.2px 0.2px 0.2px rgb(37, 37, 37);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black ;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6) ) , url('../img/intro.png') ;
+    background-size: cover;
+    background-position: cen;
+    background-repeat: no-repeat;
+}
+.Box {
+  position: fixed;
+  width : 100vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+
+.imageDiv {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  width: 60vw;
+  max-width: 400px;
+  height: auto;
+  max-height: 500px;
+  background-color: transparent;
+}
+
+.IntroImage{
+  filter: brightness(60%);
+  width: 100%;
+  height: 100%;
+}
+
+.ClickBox{
+  z-index: 3;
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+}
+
+.Click{
+  color: white;
+}
